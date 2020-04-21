@@ -1,4 +1,7 @@
-# Panini
+# Panini-svg
+
+forked from https://github.com/foundation/panini
+
 
 [![Build Status](https://travis-ci.org/zurb/panini.svg?branch=master)](https://travis-ci.org/zurb/panini) [![npm version](https://badge.fury.io/js/panini.svg)](https://badge.fury.io/js/panini) [![Coverage Status](https://coveralls.io/repos/zurb/panini/badge.svg?branch=master&service=github)](https://coveralls.io/github/zurb/panini?branch=master) [![Dependency Status](https://david-dm.org/zurb/panini.svg)](https://david-dm.org/zurb/panini)
 
@@ -9,16 +12,16 @@ Panini isn't a full-fledged static site generator&mdash;rather, it solves the ve
 ## Installation
 
 ```bash
-npm install panini --save-dev
+npm install panini-svg --save-dev
 ```
 
 ## Usage
 
-Feed Panini a stream of HTML files, and get a delicious flattened site out the other end.
+Feed Panini a stream of HTML and SVG files, and get a delicious flattened site out the other end.
 
 ```js
 var gulp = require('gulp');
-var panini = require('panini');
+var panini = require('panini-svg');
 
 gulp.task('default', function() {
   gulp.src('pages/**/*.html')

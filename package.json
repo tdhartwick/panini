@@ -1,5 +1,5 @@
 {
-  "name": "panini",
+  "name": "panini-svg",
   "version": "1.6.3",
   "description": "A super tiny flat file compiler.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "ZURB <foundation@zurb.com> (http://zurb.com)",
   "license": "MIT",
   "bin": {
-    "panini": "./bin/panini.js"
+    "panini": "bin/panini.js"
   },
   "dependencies": {
     "deepmerge": "^1.5.2",
@@ -39,9 +39,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/panini"
+    "url": "git+https://github.com/zurb/panini.git"
   },
   "bugs": {
     "url": "https://github.com/zurb/panini/issues"
-  }
+  },
+  "homepage": "https://github.com/zurb/panini#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "panini",
+    "svg"
+  ]
 }
